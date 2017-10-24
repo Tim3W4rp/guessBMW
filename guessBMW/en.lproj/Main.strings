@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "0.000"; ObjectID = "0ou-zW-PIv"; */
+"0ou-zW-PIv.text" = "0.000";
+
+/* Class = "UIButton"; normalTitle = "Done(dev)"; ObjectID = "3nQ-KC-FP2"; */
+"3nQ-KC-FP2.normalTitle" = "Done(dev)";
+
+/* Class = "UILabel"; text = "0.000"; ObjectID = "4EV-gU-egn"; */
+"4EV-gU-egn.text" = "0.000";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Cxz-PC-6p5"; */
+"Cxz-PC-6p5.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Best time:"; ObjectID = "Kaf-6j-kw1"; */
+"Kaf-6j-kw1.text" = "Best time:";
+
+/* Class = "UILabel"; text = "Previous scores"; ObjectID = "Pyx-rR-TF5"; */
+"Pyx-rR-TF5.text" = "Previous scores";
+
+/* Class = "UILabel"; text = "Guess BMW!"; ObjectID = "UBb-os-k4i"; */
+"UBb-os-k4i.text" = "Guess BMW!";
+
+/* Class = "UILabel"; text = "0.000"; ObjectID = "XTi-zk-xZr"; */
+"XTi-zk-xZr.text" = "0.000";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nPE-uW-Dc3"; */
+"nPE-uW-Dc3.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "PLAY!"; ObjectID = "rjI-p3-aqy"; */
+"rjI-p3-aqy.normalTitle" = "PLAY!";
+
+/* Class = "UILabel"; text = "0 / 10"; ObjectID = "v4n-Bf-gXw"; */
+"v4n-Bf-gXw.text" = "0 / 10";

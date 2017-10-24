@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E0221221F9E403900312D84 /* BMW7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E02211F1F9E403800312D84 /* BMW7.jpg */; };
+		9E0221231F9E403900312D84 /* BMW320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E0221201F9E403800312D84 /* BMW320.jpg */; };
+		9E0221241F9E403900312D84 /* BMW1500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E0221211F9E403800312D84 /* BMW1500.jpg */; };
+		9E0221261F9E414000312D84 /* BMWZ4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E0221251F9E413F00312D84 /* BMWZ4.jpg */; };
+		9E02212A1F9E44D700312D84 /* BMWX6M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E0221291F9E44D700312D84 /* BMWX6M.jpg */; };
+		9E02212D1F9F667600312D84 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E02212C1F9F667600312D84 /* TimeManager.swift */; };
+		9E19F73E1F9A4ACC0048A477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F73D1F9A4ACC0048A477 /* AppDelegate.swift */; };
+		9E19F7401F9A4ACC0048A477 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F73F1F9A4ACC0048A477 /* MainView.swift */; };
+		9E19F7481F9A4ACC0048A477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E19F7471F9A4ACC0048A477 /* Assets.xcassets */; };
+		9E19F74B1F9A4ACC0048A477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E19F7491F9A4ACC0048A477 /* LaunchScreen.storyboard */; };
+		9E19F75B1F9A543F0048A477 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F75A1F9A543F0048A477 /* GameView.swift */; };
+		9E19F75D1F9A564D0048A477 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F75C1F9A564D0048A477 /* ResultsView.swift */; };
+		9E19F75F1F9B31350048A477 /* ResultsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F75E1F9B31350048A477 /* ResultsData.swift */; };
+		9E19F7611F9B3BCF0048A477 /* ModelsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F7601F9B3BCF0048A477 /* ModelsCollection.swift */; };
+		9E19F7661F9B6AA20048A477 /* GameStateSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F7651F9B6AA20048A477 /* GameStateSingleton.swift */; };
+		9E27C92F1F9D668E00E3410E /* BMW1600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C90C1F9D668800E3410E /* BMW1600.jpg */; };
+		9E27C9321F9D668E00E3410E /* BMW635CSi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C90F1F9D668800E3410E /* BMW635CSi.jpg */; };
+		9E27C9331F9D668E00E3410E /* BMW328.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9101F9D668800E3410E /* BMW328.jpg */; };
+		9E27C9341F9D668E00E3410E /* BMW6Cabriolet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9111F9D668800E3410E /* BMW6Cabriolet.jpg */; };
+		9E27C9351F9D668E00E3410E /* BMWM1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9121F9D668800E3410E /* BMWM1.jpg */; };
+		9E27C9361F9D668E00E3410E /* BMWZ3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9131F9D668900E3410E /* BMWZ3.jpg */; };
+		9E27C9371F9D668E00E3410E /* BMWX3M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9141F9D668900E3410E /* BMWX3M.jpg */; };
+		9E27C9391F9D668E00E3410E /* BMWM3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9161F9D668900E3410E /* BMWM3.jpg */; };
+		9E27C93C1F9D668E00E3410E /* BMWX1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9191F9D668A00E3410E /* BMWX1.jpg */; };
+		9E27C93D1F9D668E00E3410E /* BMW502.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C91A1F9D668A00E3410E /* BMW502.jpg */; };
+		9E27C93F1F9D668E00E3410E /* BMWZ8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C91C1F9D668A00E3410E /* BMWZ8.jpg */; };
+		9E27C9401F9D668E00E3410E /* BMW340.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C91D1F9D668A00E3410E /* BMW340.jpg */; };
+		9E27C9411F9D668E00E3410E /* BMW2GranTourer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C91E1F9D668A00E3410E /* BMW2GranTourer.jpg */; };
+		9E27C9421F9D668E00E3410E /* BMWM3E30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C91F1F9D668B00E3410E /* BMWM3E30.jpg */; };
+		9E27C9431F9D668E00E3410E /* BMW3200CS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9201F9D668B00E3410E /* BMW3200CS.jpg */; };
+		9E27C9441F9D668E00E3410E /* BMWM2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9211F9D668B00E3410E /* BMWM2.jpg */; };
+		9E27C9461F9D668E00E3410E /* BMWi8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9231F9D668B00E3410E /* BMWi8.jpg */; };
+		9E27C9471F9D668E00E3410E /* 315DA-3Wartburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9241F9D668C00E3410E /* 315DA-3Wartburg.jpg */; };
+		9E27C9481F9D668E00E3410E /* BMWX5M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9251F9D668C00E3410E /* BMWX5M.jpg */; };
+		9E27C9491F9D668E00E3410E /* BMW850CSi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9261F9D668C00E3410E /* BMW850CSi.jpg */; };
+		9E27C94A1F9D668E00E3410E /* BMW507.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9271F9D668C00E3410E /* BMW507.jpg */; };
+		9E27C94B1F9D668E00E3410E /* BMW319.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9281F9D668C00E3410E /* BMW319.jpg */; };
+		9E27C94C1F9D668E00E3410E /* BMWi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9291F9D668D00E3410E /* BMWi3.jpg */; };
+		9E27C94D1F9D668E00E3410E /* BMW600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C92A1F9D668D00E3410E /* BMW600.jpg */; };
+		9E27C94E1F9D668E00E3410E /* BMWZ1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C92B1F9D668D00E3410E /* BMWZ1.jpg */; };
+		9E27C9501F9D668E00E3410E /* BMWX4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C92D1F9D668D00E3410E /* BMWX4.jpg */; };
+		9E27C9511F9D668E00E3410E /* BMW503coupe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C92E1F9D668D00E3410E /* BMW503coupe.jpg */; };
+		9E27C9571F9D6C5500E3410E /* BMWG310R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9521F9D6C5300E3410E /* BMWG310R.jpg */; };
+		9E27C9581F9D6C5500E3410E /* BMWK1600B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9531F9D6C5300E3410E /* BMWK1600B.jpg */; };
+		9E27C9591F9D6C5500E3410E /* BMWR1200GS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9541F9D6C5400E3410E /* BMWR1200GS.jpg */; };
+		9E27C95A1F9D6C5500E3410E /* BMWRnineTSrambler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9551F9D6C5400E3410E /* BMWRnineTSrambler.jpg */; };
+		9E27C95B1F9D6C5500E3410E /* BMWRnineT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C9561F9D6C5400E3410E /* BMWRnineT.jpg */; };
+		9E27C95D1F9D6DE200E3410E /* Dixi315DA-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E27C95C1F9D6DE100E3410E /* Dixi315DA-1.jpg */; };
+		9E9F8B561F9BBC5600F2CB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E19F7411F9A4ACC0048A477 /* Main.storyboard */; };
+		9EB76BF31F9D14C2009458CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB76BF21F9D14C2009458CE /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E02211F1F9E403800312D84 /* BMW7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW7.jpg; path = Images/BMW7.jpg; sourceTree = "<group>"; };
+		9E0221201F9E403800312D84 /* BMW320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW320.jpg; path = Images/BMW320.jpg; sourceTree = "<group>"; };
+		9E0221211F9E403800312D84 /* BMW1500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW1500.jpg; path = Images/BMW1500.jpg; sourceTree = "<group>"; };
+		9E0221251F9E413F00312D84 /* BMWZ4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWZ4.jpg; path = Images/BMWZ4.jpg; sourceTree = "<group>"; };
+		9E0221291F9E44D700312D84 /* BMWX6M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWX6M.jpg; path = Images/BMWX6M.jpg; sourceTree = "<group>"; };
+		9E02212C1F9F667600312D84 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		9E19F73A1F9A4ACC0048A477 /* guessBMW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessBMW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E19F73D1F9A4ACC0048A477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E19F73F1F9A4ACC0048A477 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9E19F7471F9A4ACC0048A477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E19F74A1F9A4ACC0048A477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E19F74C1F9A4ACC0048A477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E19F75A1F9A543F0048A477 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9E19F75C1F9A564D0048A477 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		9E19F75E1F9B31350048A477 /* ResultsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsData.swift; sourceTree = "<group>"; };
+		9E19F7601F9B3BCF0048A477 /* ModelsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsCollection.swift; sourceTree = "<group>"; };
+		9E19F7651F9B6AA20048A477 /* GameStateSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateSingleton.swift; sourceTree = "<group>"; };
+		9E27C90C1F9D668800E3410E /* BMW1600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW1600.jpg; path = Images/BMW1600.jpg; sourceTree = "<group>"; };
+		9E27C90F1F9D668800E3410E /* BMW635CSi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW635CSi.jpg; path = Images/BMW635CSi.jpg; sourceTree = "<group>"; };
+		9E27C9101F9D668800E3410E /* BMW328.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW328.jpg; path = Images/BMW328.jpg; sourceTree = "<group>"; };
+		9E27C9111F9D668800E3410E /* BMW6Cabriolet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW6Cabriolet.jpg; path = Images/BMW6Cabriolet.jpg; sourceTree = "<group>"; };
+		9E27C9121F9D668800E3410E /* BMWM1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWM1.jpg; path = Images/BMWM1.jpg; sourceTree = "<group>"; };
+		9E27C9131F9D668900E3410E /* BMWZ3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWZ3.jpg; path = Images/BMWZ3.jpg; sourceTree = "<group>"; };
+		9E27C9141F9D668900E3410E /* BMWX3M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWX3M.jpg; path = Images/BMWX3M.jpg; sourceTree = "<group>"; };
+		9E27C9161F9D668900E3410E /* BMWM3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWM3.jpg; path = Images/BMWM3.jpg; sourceTree = "<group>"; };
+		9E27C9191F9D668A00E3410E /* BMWX1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWX1.jpg; path = Images/BMWX1.jpg; sourceTree = "<group>"; };
+		9E27C91A1F9D668A00E3410E /* BMW502.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW502.jpg; path = Images/BMW502.jpg; sourceTree = "<group>"; };
+		9E27C91C1F9D668A00E3410E /* BMWZ8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWZ8.jpg; path = Images/BMWZ8.jpg; sourceTree = "<group>"; };
+		9E27C91D1F9D668A00E3410E /* BMW340.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW340.jpg; path = Images/BMW340.jpg; sourceTree = "<group>"; };
+		9E27C91E1F9D668A00E3410E /* BMW2GranTourer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW2GranTourer.jpg; path = Images/BMW2GranTourer.jpg; sourceTree = "<group>"; };
+		9E27C91F1F9D668B00E3410E /* BMWM3E30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWM3E30.jpg; path = Images/BMWM3E30.jpg; sourceTree = "<group>"; };
+		9E27C9201F9D668B00E3410E /* BMW3200CS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW3200CS.jpg; path = Images/BMW3200CS.jpg; sourceTree = "<group>"; };
+		9E27C9211F9D668B00E3410E /* BMWM2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWM2.jpg; path = Images/BMWM2.jpg; sourceTree = "<group>"; };
+		9E27C9231F9D668B00E3410E /* BMWi8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWi8.jpg; path = Images/BMWi8.jpg; sourceTree = "<group>"; };
+		9E27C9241F9D668C00E3410E /* 315DA-3Wartburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "315DA-3Wartburg.jpg"; path = "Images/315DA-3Wartburg.jpg"; sourceTree = "<group>"; };
+		9E27C9251F9D668C00E3410E /* BMWX5M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWX5M.jpg; path = Images/BMWX5M.jpg; sourceTree = "<group>"; };
+		9E27C9261F9D668C00E3410E /* BMW850CSi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW850CSi.jpg; path = Images/BMW850CSi.jpg; sourceTree = "<group>"; };
+		9E27C9271F9D668C00E3410E /* BMW507.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW507.jpg; path = Images/BMW507.jpg; sourceTree = "<group>"; };
+		9E27C9281F9D668C00E3410E /* BMW319.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW319.jpg; path = Images/BMW319.jpg; sourceTree = "<group>"; };
+		9E27C9291F9D668D00E3410E /* BMWi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWi3.jpg; path = Images/BMWi3.jpg; sourceTree = "<group>"; };
+		9E27C92A1F9D668D00E3410E /* BMW600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW600.jpg; path = Images/BMW600.jpg; sourceTree = "<group>"; };
+		9E27C92B1F9D668D00E3410E /* BMWZ1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWZ1.jpg; path = Images/BMWZ1.jpg; sourceTree = "<group>"; };
+		9E27C92D1F9D668D00E3410E /* BMWX4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWX4.jpg; path = Images/BMWX4.jpg; sourceTree = "<group>"; };
+		9E27C92E1F9D668D00E3410E /* BMW503coupe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMW503coupe.jpg; path = Images/BMW503coupe.jpg; sourceTree = "<group>"; };
+		9E27C9521F9D6C5300E3410E /* BMWG310R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWG310R.jpg; path = Images/BMWG310R.jpg; sourceTree = "<group>"; };
+		9E27C9531F9D6C5300E3410E /* BMWK1600B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWK1600B.jpg; path = Images/BMWK1600B.jpg; sourceTree = "<group>"; };
+		9E27C9541F9D6C5400E3410E /* BMWR1200GS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWR1200GS.jpg; path = Images/BMWR1200GS.jpg; sourceTree = "<group>"; };
+		9E27C9551F9D6C5400E3410E /* BMWRnineTSrambler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWRnineTSrambler.jpg; path = Images/BMWRnineTSrambler.jpg; sourceTree = "<group>"; };
+		9E27C9561F9D6C5400E3410E /* BMWRnineT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BMWRnineT.jpg; path = Images/BMWRnineT.jpg; sourceTree = "<group>"; };
+		9E27C95C1F9D6DE100E3410E /* Dixi315DA-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dixi315DA-1.jpg"; path = "Images/Dixi315DA-1.jpg"; sourceTree = "<group>"; };
+		9E9F8B581F9BBC6200F2CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EB76BF21F9D14C2009458CE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E19F7371F9A4ACC0048A477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E02212B1F9F665D00312D84 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9E02212C1F9F667600312D84 /* TimeManager.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		9E19F7311F9A4ACC0048A477 = {
+			isa = PBXGroup;
+			children = (
+				9E19F73C1F9A4ACC0048A477 /* guessBMW */,
+				9E19F73B1F9A4ACC0048A477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E19F73B1F9A4ACC0048A477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E19F73A1F9A4ACC0048A477 /* guessBMW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E19F73C1F9A4ACC0048A477 /* guessBMW */ = {
+			isa = PBXGroup;
+			children = (
+				9E19F7471F9A4ACC0048A477 /* Assets.xcassets */,
+				9E19F73D1F9A4ACC0048A477 /* AppDelegate.swift */,
+				9E19F7411F9A4ACC0048A477 /* Main.storyboard */,
+				9E19F7491F9A4ACC0048A477 /* LaunchScreen.storyboard */,
+				9E02212B1F9F665D00312D84 /* GameUtils */,
+				9E19F7681F9B7E600048A477 /* Views */,
+				9E19F7691F9B7E970048A477 /* GameData */,
+				9E27C9241F9D668C00E3410E /* 315DA-3Wartburg.jpg */,
+				9E27C9521F9D6C5300E3410E /* BMWG310R.jpg */,
+				9E27C9531F9D6C5300E3410E /* BMWK1600B.jpg */,
+				9E27C9541F9D6C5400E3410E /* BMWR1200GS.jpg */,
+				9E27C9561F9D6C5400E3410E /* BMWRnineT.jpg */,
+				9E27C9551F9D6C5400E3410E /* BMWRnineTSrambler.jpg */,
+				9E27C9281F9D668C00E3410E /* BMW319.jpg */,
+				9E0221201F9E403800312D84 /* BMW320.jpg */,
+				9E27C91A1F9D668A00E3410E /* BMW502.jpg */,
+				9E27C92E1F9D668D00E3410E /* BMW503coupe.jpg */,
+				9E27C92B1F9D668D00E3410E /* BMWZ1.jpg */,
+				9E27C9131F9D668900E3410E /* BMWZ3.jpg */,
+				9E0221251F9E413F00312D84 /* BMWZ4.jpg */,
+				9E27C91C1F9D668A00E3410E /* BMWZ8.jpg */,
+				9E27C92A1F9D668D00E3410E /* BMW600.jpg */,
+				9E27C90F1F9D668800E3410E /* BMW635CSi.jpg */,
+				9E27C9261F9D668C00E3410E /* BMW850CSi.jpg */,
+				9E27C9201F9D668B00E3410E /* BMW3200CS.jpg */,
+				9E27C9211F9D668B00E3410E /* BMWM2.jpg */,
+				9E27C9161F9D668900E3410E /* BMWM3.jpg */,
+				9E27C9191F9D668A00E3410E /* BMWX1.jpg */,
+				9E27C9141F9D668900E3410E /* BMWX3M.jpg */,
+				9E27C92D1F9D668D00E3410E /* BMWX4.jpg */,
+				9E27C9251F9D668C00E3410E /* BMWX5M.jpg */,
+				9E0221291F9E44D700312D84 /* BMWX6M.jpg */,
+				9E02211F1F9E403800312D84 /* BMW7.jpg */,
+				9E0221211F9E403800312D84 /* BMW1500.jpg */,
+				9E27C91E1F9D668A00E3410E /* BMW2GranTourer.jpg */,
+				9E27C9111F9D668800E3410E /* BMW6Cabriolet.jpg */,
+				9E27C9101F9D668800E3410E /* BMW328.jpg */,
+				9E27C91D1F9D668A00E3410E /* BMW340.jpg */,
+				9E27C9271F9D668C00E3410E /* BMW507.jpg */,
+				9E27C90C1F9D668800E3410E /* BMW1600.jpg */,
+				9E27C9291F9D668D00E3410E /* BMWi3.jpg */,
+				9E27C9231F9D668B00E3410E /* BMWi8.jpg */,
+				9E27C9121F9D668800E3410E /* BMWM1.jpg */,
+				9E27C91F1F9D668B00E3410E /* BMWM3E30.jpg */,
+				9E27C95C1F9D6DE100E3410E /* Dixi315DA-1.jpg */,
+				9E19F74C1F9A4ACC0048A477 /* Info.plist */,
+			);
+			path = guessBMW;
+			sourceTree = "<group>";
+		};
+		9E19F7681F9B7E600048A477 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E19F73F1F9A4ACC0048A477 /* MainView.swift */,
+				9E19F75A1F9A543F0048A477 /* GameView.swift */,
+				9E19F75C1F9A564D0048A477 /* ResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E19F7691F9B7E970048A477 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				9E19F7601F9B3BCF0048A477 /* ModelsCollection.swift */,
+				9E19F75E1F9B31350048A477 /* ResultsData.swift */,
+				9E19F7651F9B6AA20048A477 /* GameStateSingleton.swift */,
+				9EB76BF21F9D14C2009458CE /* Model.swift */,
+			);
+			path = GameData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E19F7391F9A4ACC0048A477 /* guessBMW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E19F74F1F9A4ACC0048A477 /* Build configuration list for PBXNativeTarget "guessBMW" */;
+			buildPhases = (
+				9E19F7361F9A4ACC0048A477 /* Sources */,
+				9E19F7371F9A4ACC0048A477 /* Frameworks */,
+				9E19F7381F9A4ACC0048A477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guessBMW;
+			productName = guessBMW;
+			productReference = 9E19F73A1F9A4ACC0048A477 /* guessBMW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E19F7321F9A4ACC0048A477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Martin Jordán";
+				TargetAttributes = {
+					9E19F7391F9A4ACC0048A477 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E19F7351F9A4ACC0048A477 /* Build configuration list for PBXProject "guessBMW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E19F7311F9A4ACC0048A477;
+			productRefGroup = 9E19F73B1F9A4ACC0048A477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E19F7391F9A4ACC0048A477 /* guessBMW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E19F7381F9A4ACC0048A477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0221261F9E414000312D84 /* BMWZ4.jpg in Resources */,
+				9E27C9481F9D668E00E3410E /* BMWX5M.jpg in Resources */,
+				9E02212A1F9E44D700312D84 /* BMWX6M.jpg in Resources */,
+				9E27C9371F9D668E00E3410E /* BMWX3M.jpg in Resources */,
+				9E27C93F1F9D668E00E3410E /* BMWZ8.jpg in Resources */,
+				9E27C9511F9D668E00E3410E /* BMW503coupe.jpg in Resources */,
+				9E27C95D1F9D6DE200E3410E /* Dixi315DA-1.jpg in Resources */,
+				9E27C9321F9D668E00E3410E /* BMW635CSi.jpg in Resources */,
+				9E19F74B1F9A4ACC0048A477 /* LaunchScreen.storyboard in Resources */,
+				9E27C95A1F9D6C5500E3410E /* BMWRnineTSrambler.jpg in Resources */,
+				9E27C9411F9D668E00E3410E /* BMW2GranTourer.jpg in Resources */,
+				9E19F7481F9A4ACC0048A477 /* Assets.xcassets in Resources */,
+				9E27C9361F9D668E00E3410E /* BMWZ3.jpg in Resources */,
+				9E27C93C1F9D668E00E3410E /* BMWX1.jpg in Resources */,
+				9E27C9591F9D6C5500E3410E /* BMWR1200GS.jpg in Resources */,
+				9E27C9491F9D668E00E3410E /* BMW850CSi.jpg in Resources */,
+				9E27C9471F9D668E00E3410E /* 315DA-3Wartburg.jpg in Resources */,
+				9E27C9501F9D668E00E3410E /* BMWX4.jpg in Resources */,
+				9E27C9341F9D668E00E3410E /* BMW6Cabriolet.jpg in Resources */,
+				9E27C9331F9D668E00E3410E /* BMW328.jpg in Resources */,
+				9E27C9391F9D668E00E3410E /* BMWM3.jpg in Resources */,
+				9E27C94E1F9D668E00E3410E /* BMWZ1.jpg in Resources */,
+				9E27C94A1F9D668E00E3410E /* BMW507.jpg in Resources */,
+				9E0221231F9E403900312D84 /* BMW320.jpg in Resources */,
+				9E27C93D1F9D668E00E3410E /* BMW502.jpg in Resources */,
+				9E9F8B561F9BBC5600F2CB75 /* Main.storyboard in Resources */,
+				9E27C95B1F9D6C5500E3410E /* BMWRnineT.jpg in Resources */,
+				9E0221221F9E403900312D84 /* BMW7.jpg in Resources */,
+				9E27C9421F9D668E00E3410E /* BMWM3E30.jpg in Resources */,
+				9E27C94D1F9D668E00E3410E /* BMW600.jpg in Resources */,
+				9E27C9401F9D668E00E3410E /* BMW340.jpg in Resources */,
+				9E27C9441F9D668E00E3410E /* BMWM2.jpg in Resources */,
+				9E27C9351F9D668E00E3410E /* BMWM1.jpg in Resources */,
+				9E27C94C1F9D668E00E3410E /* BMWi3.jpg in Resources */,
+				9E27C92F1F9D668E00E3410E /* BMW1600.jpg in Resources */,
+				9E27C94B1F9D668E00E3410E /* BMW319.jpg in Resources */,
+				9E27C9461F9D668E00E3410E /* BMWi8.jpg in Resources */,
+				9E0221241F9E403900312D84 /* BMW1500.jpg in Resources */,
+				9E27C9571F9D6C5500E3410E /* BMWG310R.jpg in Resources */,
+				9E27C9581F9D6C5500E3410E /* BMWK1600B.jpg in Resources */,
+				9E27C9431F9D668E00E3410E /* BMW3200CS.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E19F7361F9A4ACC0048A477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E19F7401F9A4ACC0048A477 /* MainView.swift in Sources */,
+				9E19F73E1F9A4ACC0048A477 /* AppDelegate.swift in Sources */,
+				9E19F7661F9B6AA20048A477 /* GameStateSingleton.swift in Sources */,
+				9E19F75B1F9A543F0048A477 /* GameView.swift in Sources */,
+				9E19F75D1F9A564D0048A477 /* ResultsView.swift in Sources */,
+				9E19F75F1F9B31350048A477 /* ResultsData.swift in Sources */,
+				9E02212D1F9F667600312D84 /* TimeManager.swift in Sources */,
+				9E19F7611F9B3BCF0048A477 /* ModelsCollection.swift in Sources */,
+				9EB76BF31F9D14C2009458CE /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E19F7411F9A4ACC0048A477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E9F8B581F9BBC6200F2CB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E19F7491F9A4ACC0048A477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E19F74A1F9A4ACC0048A477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E19F74D1F9A4ACC0048A477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E19F74E1F9A4ACC0048A477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E19F7501F9A4ACC0048A477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N6BWMY59H;
+				INFOPLIST_FILE = guessBMW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MJ.guessBMW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E19F7511F9A4ACC0048A477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N6BWMY59H;
+				INFOPLIST_FILE = guessBMW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MJ.guessBMW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E19F7351F9A4ACC0048A477 /* Build configuration list for PBXProject "guessBMW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E19F74D1F9A4ACC0048A477 /* Debug */,
+				9E19F74E1F9A4ACC0048A477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E19F74F1F9A4ACC0048A477 /* Build configuration list for PBXNativeTarget "guessBMW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E19F7501F9A4ACC0048A477 /* Debug */,
+				9E19F7511F9A4ACC0048A477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E19F7321F9A4ACC0048A477 /* Project object */;
+}
