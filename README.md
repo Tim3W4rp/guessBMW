@@ -6,4 +6,4 @@ It is a game where the player is presented with three pictures and one BMW model
 
 There are major flaws within the code and under specific circumstances, the application may crash.
 
-The code is crap, but then again, I wrote the app in 2 days with no prior knowledge of Swift.
+The code is trash, but then again, I wrote the app in 2 days with no prior knowledge of Swift.
